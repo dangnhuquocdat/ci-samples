@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'vs2017-win2016'
+  vmImage: 'ubuntu-18.04'
 
 steps:
 - task: katalonTask@1
@@ -10,3 +10,4 @@ steps:
   inputs:
     version: '8.2.0'
     executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="$(katalon_api_key)" --config -webui.autoUpdateDrivers=true'
+    xvfbConfiguration: '-a -n 0 -s "-screen 0 1024x768x24"'
