@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>TS_RegressionTestCollectionParallel</name>
+   <name>TSC_RegressionTestCollection</name>
    <tag></tag>
-   <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>2</maxConcurrentInstances>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
