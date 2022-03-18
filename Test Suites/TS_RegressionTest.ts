@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Appointment</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
